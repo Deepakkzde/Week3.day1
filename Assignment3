@@ -1,0 +1,75 @@
+package Week3.day1;
+public class BankInfo {
+
+	
+	public void saving()
+	
+	{
+		System.out.println("Bank Info Savings");
+	}
+	
+	
+public void fixed()
+	
+	{
+		System.out.println("Bank info fixed");
+	}
+	
+	
+
+public void deposit()
+
+{
+	System.out.println("Bank info deposit");
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package Week3.day1;
+
+public class AxisBank extends BankInfo {
+
+	
+	
+	public void deposit()
+	
+	{
+		System.out.println("Axis bank Deposit");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		AxisBank AB = new AxisBank();
+		
+		AB.deposit();
+		
+	}
+
+}
