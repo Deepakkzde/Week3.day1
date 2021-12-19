@@ -1,0 +1,119 @@
+package org.college;
+
+public class College {
+
+	
+	
+	public void collegeName()
+	{
+		System.out.println("collegeName");
+	}
+	
+	public void collegeCode()
+	{
+		System.out.println("collegeCode");
+	}
+	
+	
+
+	public void collegeRank()
+	{
+		System.out.println("collegeRank");
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package org.department;
+
+import org.college.College;
+
+public class Department extends College{
+
+	
+	public void deptName()
+	
+	{
+		System.out.println("Department");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package org.student;
+
+import org.department.Department;
+
+public class Student extends Department {
+
+	
+	public void studentName()
+	
+	{
+		System.out.println("studentName");
+	}
+	
+	
+	public void studentDept()
+	
+	{
+		System.out.println("studentDept");
+	}
+	
+	
+	public void studentId()
+	
+	{
+		System.out.println("studentId");
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Student obj = new Student();
+		
+		obj.collegeName();
+		obj.collegeCode();
+		obj.collegeRank();
+		obj.deptName();
+		obj.studentName();
+		obj.studentDept();
+		obj.studentId();
+
+	}
+
+}
