@@ -1,5 +1,4 @@
-package org.college;
-
+package Week3.day1;
 public class College {
 
 	
@@ -42,7 +41,7 @@ public class College {
 
 
 
-package org.department;
+package Week3.day1;
 
 import org.college.College;
 
@@ -72,7 +71,7 @@ public class Department extends College{
 
 
 
-package org.student;
+package Week3.day1;
 
 import org.department.Department;
 
